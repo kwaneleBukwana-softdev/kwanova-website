@@ -286,11 +286,12 @@ HERO
 /* HERO LAYOUT */
 
 .hero {
-  min-height: calc(100vh - 110px);
+ min-height: 80vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 0 10%;
 }
 
 /* TEXT ANIMATION */
@@ -328,13 +329,18 @@ HERO
 }
 
 .page-hero {
-  min-height: 60vh;
+ min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 0 10%;
 }
 
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
 /* ANIMATION KEYFRAME */
 @keyframes fadeUp {
   to {
@@ -1045,6 +1051,9 @@ body {
   min-height: 100vh;
 }
 
-.page-content {
-  flex: 1;
+.page {
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
