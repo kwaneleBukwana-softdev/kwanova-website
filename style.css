@@ -12,8 +12,12 @@ body {
   color: white;
 }
 
+main {
+  padding-top: 110px;
+}
+
 .page-content {
-  padding-top: 120px;
+  padding-top: 0;
 }
 
 @media (max-width: 768px) {
