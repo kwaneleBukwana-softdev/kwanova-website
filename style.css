@@ -11,8 +11,6 @@ body {
   color: white;
   overflow-x: hidden;
 
-  /* IMPORTANT: single consistent spacing system */
-  padding-top: 110px;
 
   display: flex;
   flex-direction: column;
@@ -338,15 +336,6 @@ HERO
   animation-delay: 1.5s;
 }
 
-.page-hero {
- min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 60 10%;
-}
-
 section {
   width: 100%;
   box-sizing: border-box;
@@ -644,12 +633,6 @@ section {
 /* NAV ACTIVE STATE */
 .nav-links a.active {
   color: #4f9cff;
-}
-
-/* PAGE HERO */
-.page-hero {
-  padding: 120px 20px 60px;
-  text-align: center;
 }
 
 .page-hero h1 {
@@ -1051,9 +1034,6 @@ section {
   margin-top: auto;
 }
 
-
-
-.page {
   .page {
     padding-top: 80px;   
     flex: 1;
