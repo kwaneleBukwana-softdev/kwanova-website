@@ -1052,7 +1052,7 @@ section {
 
 
 .page {
-  padding-top: 120px;
+  padding-top: 90px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
