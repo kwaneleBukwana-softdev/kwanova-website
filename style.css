@@ -327,6 +327,14 @@ HERO
   animation-delay: 1.5s;
 }
 
+.page-hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 /* ANIMATION KEYFRAME */
 @keyframes fadeUp {
   to {
