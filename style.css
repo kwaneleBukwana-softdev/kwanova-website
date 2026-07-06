@@ -295,6 +295,9 @@ HERO
   justify-content: center;
   text-align: center;
 }
+.hero-content {
+    transform: translateY(-25px);
+}
 
 .page-hero {
   padding: 40px 20px 60px;
