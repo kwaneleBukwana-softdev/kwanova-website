@@ -284,15 +284,6 @@ section {
 HERO
 ======================= */
 
-/* HERO LAYOUT */
-
-.hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 .hero-content {
     transform: translateY(-25px);
 }
@@ -1036,7 +1027,7 @@ section {
 }
 
   .page {
-    padding-top: 80px;   
+    padding-top: 0px;   
     flex: 1;
 }
 
