@@ -642,8 +642,9 @@ section {
 
 .page-hero p {
   color: #bdbdbd;
+  max-width: 700px;
+  margin: auto;
 }
-
 /* SOLUTIONS PAGE SECTION */
 .solutions-page {
   padding: 60px 0 120px;
