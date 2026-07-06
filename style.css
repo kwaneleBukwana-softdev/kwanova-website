@@ -284,6 +284,15 @@ section {
 HERO
 ======================= */
 
+/* HERO LAYOUT */
+
+.hero {
+  min-height:calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .hero-content {
     transform: translateY(-25px);
 }
