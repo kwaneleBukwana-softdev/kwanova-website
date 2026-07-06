@@ -21,9 +21,14 @@ main {
   flex: 1;
 }
 
+:root {
+  --navbar-height: 110px;
+}
+
 
 @media (max-width: 768px) {
-  .page-content {
+  .hero {
+    min-height: calc(100vh - 130px);
   }
 }
 /* GOOGLE FONT */
@@ -281,13 +286,11 @@ HERO
 /* HERO LAYOUT */
 
 .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    padding-top: 90px;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* TEXT ANIMATION */
